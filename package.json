@@ -1,0 +1,27 @@
+{
+  "name": "filgreen-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digital-MOB-Filecoin/filgreen-monitor.git"
+  },
+  "author": "DigitalMOB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Digital-MOB-Filecoin/filgreen-monitor/issues"
+  },
+  "homepage": "https://github.com/Digital-MOB-Filecoin/filgreen-monitor#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.1",
+    "time-stamp": "^2.2.0"
+  }
+}
